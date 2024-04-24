@@ -1,6 +1,6 @@
 # Module 1- Configure Microsoft Entra ID
 
-__Entra ID :__
+## __Entra ID :__
 
 Cloud based directory and identity management service that supports user acessto various resources and applications.
 
