@@ -37,6 +37,17 @@ Collection of users added based on a query. If a new user is created and matches
 
 <img width="910" alt="Screenshot 2024-04-25 171450" src="https://github.com/anuja2015/AZ-104/assets/16287330/b47daf6b-9911-4d21-9a7a-d5f40b3be69b">
 
+### Self service password reset
+
+- Admins are always enabled for self service password reset and are required to user multi factor authentication to rest the password.
+- Others have to contact the administrators to rest their password.
+
+<img width="875" alt="Screenshot 2024-04-25 170830" src="https://github.com/anuja2015/AZ-104/assets/16287330/660ccef6-452c-4bdc-ad4c-0b395d6e3098">
+
+<img width="812" alt="Screenshot 2024-04-25 174019" src="https://github.com/anuja2015/AZ-104/assets/16287330/8b0470f3-322c-4c6d-ae80-ebea04aa05c1">
+
+
+
 
 
 
