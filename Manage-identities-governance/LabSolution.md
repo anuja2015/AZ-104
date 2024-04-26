@@ -30,11 +30,19 @@ __Task 2:__ __Create AD groups with assigned and dynamic membership.__
 
 <img width="942" alt="Screenshot 2024-04-26 164852" src="https://github.com/anuja2015/AZ-104/assets/16287330/85ff8409-d744-4bc0-8664-21ef124b43a4">
 
-<img width="734" alt="Screenshot 2024-04-26 164912" src="https://github.com/anuja2015/AZ-104/assets/16287330/9a4fff12-3d39-4140-9958-991a4f1ba461">
+<img width="776" alt="Screenshot 2024-04-26 165744" src="https://github.com/anuja2015/AZ-104/assets/16287330/a4e36138-ed95-42b4-b5db-420eee868bfc">
+
+<img width="953" alt="Screenshot 2024-04-26 165814" src="https://github.com/anuja2015/AZ-104/assets/16287330/4959b3bf-7dd3-4753-a6b2-17177f241ca1">
+
+<img width="743" alt="Screenshot 2024-04-26 165951" src="https://github.com/anuja2015/AZ-104/assets/16287330/9701c899-d910-4a9d-8323-c3524ba53c09">
+
 
 <img width="941" alt="Screenshot 2024-04-26 164938" src="https://github.com/anuja2015/AZ-104/assets/16287330/c549d431-d6a1-44cc-a6cc-351df597568a">
 
 <img width="927" alt="Screenshot 2024-04-26 165012" src="https://github.com/anuja2015/AZ-104/assets/16287330/94bb1804-536b-4b13-b767-c027be4815ae">
+
+<img width="953" alt="Screenshot 2024-04-26 170058" src="https://github.com/anuja2015/AZ-104/assets/16287330/5b1df8c5-2aec-4746-8329-974fcbfbe7b9">
+
 
 __Task 3:__ __Create a Microsoft Entra tenant. This tenant will be used to demonstrate guest users.__
 
@@ -53,6 +61,10 @@ __Task 4:__ __Manage Microsoft Entra guest users.__
 
 <img width="429" alt="Screenshot 2024-04-26 162935" src="https://github.com/anuja2015/AZ-104/assets/16287330/cf270596-f944-4953-89b4-c2ab9f571315">
 
+<img width="809" alt="Screenshot 2024-04-26 170239" src="https://github.com/anuja2015/AZ-104/assets/16287330/02776a7a-08d6-47e8-b807-c6f2184fc7a9">
 
+<img width="701" alt="Screenshot 2024-04-26 170404" src="https://github.com/anuja2015/AZ-104/assets/16287330/0d1b73c5-f382-43b9-bd82-8f50368882df">
+
+<img width="940" alt="Screenshot 2024-04-26 170432" src="https://github.com/anuja2015/AZ-104/assets/16287330/4b520326-f5bc-418a-900f-edd6f4317a0c">
 
 
