@@ -33,9 +33,11 @@ The default configuration would look like below.
 
 <img width="851" alt="Screenshot 2024-04-26 134205" src="https://github.com/anuja2015/AZ-104/assets/16287330/ae4d70f6-5ce1-49e5-ba48-213012799cf3">
 
-Enable AD Authorization
+#### Enable AD Authorization
 
 <img width="754" alt="Screenshot 2024-04-26 134400" src="https://github.com/anuja2015/AZ-104/assets/16287330/fcb0f9e0-5611-409e-9d7c-a20bc03706fa">
 
+
+#### Assign permission to storage account for self
 
 
