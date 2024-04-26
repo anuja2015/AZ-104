@@ -1,3 +1,4 @@
+# Lab 1
 Your organization will be using Microsoft Entra authentication. You've been tasked with provisioning the required user and group accounts. Membership of the groups should be updated automatically based on the user job titles. You also need to invite guest users from another tenant. These guest users should have only limited permissions to resources in your subscription.
 
 Your organization has these specific requirements:
