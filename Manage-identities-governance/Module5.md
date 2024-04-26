@@ -14,7 +14,7 @@
 There are 2 types of roles in azure.
 
 - __Azure AD (Entra ID) administrator roles:__ used for granting access for privileged actions in Microsoft Entra ID.
-- __Azure roles:__ - Roles assigned for accessing azure resources.
+- __Azure roles:__ Roles assigned for accessing azure resources.
   
 ### Benefits of RBAC
 
