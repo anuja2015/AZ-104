@@ -11,11 +11,18 @@
 - not related to the job title
 - Can assign one or more roles to a user.
 
+There are 2 types of roles in azure.
+
+- __Azure AD (Entra ID) administrator roles:__ used for granting access for privileged actions in Microsoft Entra ID.
+- __Azure roles:__ - Roles assigned for accessing azure resources.
+  
 ### Benefits of RBAC
 
 - Simpler management
 - less errors. make sure right role is assigned.
 - easier for new users added to the system to be assigned the correct permissions
+
+
 
 ### Managing the access to resources
 
