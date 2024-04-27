@@ -1,11 +1,13 @@
 
 ## Module:3 Configure subscriptions
 
+### Basic concepts
+
 1. __Account :__
 
 - can be a person or program
 
-| type | basis of authentication |
+| Type | basis of authentication |
 |------| ------------------------|
 |person| username/password/multifactor authentication |
 |App | managed identity |  
@@ -39,3 +41,39 @@ Types of subscription: Free, Pay as you go , Enterprise agreements, Azure for st
 
 - folder structure
 - a way of organizing resources in a subscription.
+
+### Cost Management
+
+- provides support for administrative billing tasks.
+- helps to manage billing access to costs.
+- monitor and control azure spending.
+- optimize azure resource usage.
+  
+<img width="940" alt="Screenshot 2024-04-27 134350" src="https://github.com/anuja2015/AZ-104/assets/16287330/36619c4c-4b6a-4911-a6b8-bdaa2fb11f87">
+
+#### Cost Analysis
+- view aggregated costs and spending trends.
+- shows the services used for which cost is incurred.
+- displays location wise and resource group wise costs incurred.
+- Monitor accumulated costs over time to estimate monthly,quaterly or yearly costs against a budget.
+- use analysis data to inform others about spending proactively to manage costs.
+
+<img width="908" alt="Screenshot 2024-04-27 134700" src="https://github.com/anuja2015/AZ-104/assets/16287330/64cce0da-cb22-4f09-b2fb-ed8be6bcf489">
+
+#### Cost Alerts
+- set up alesrts based on the threshold of the spends.
+
+<img width="959" alt="Screenshot 2024-04-27 134813" src="https://github.com/anuja2015/AZ-104/assets/16287330/c509c90f-0a1b-4ab7-801a-36a5ef0a6cd1">
+
+#### Budgets
+- helps prevent cost thresholds or limits from surprassing.
+
+#### Advisor recommendations
+
+- Advisor runs continuously montitoring the azure account and gives recommendations using which we can optimize the costs and resource usages.
+
+### Resource tags
+
+- categorize resources
+-  view consolidated billing by applying the same tag to multiple resources and resource groups.
+-  Tags applied to a resource group aren't inherited by the resources in the resource groups.
