@@ -1,7 +1,7 @@
 
-## Module:2 Configure user and group accounts
+# Module:2 Configure user and group accounts
 
-### __Create user__
+## __Create user__
 
 A user can be created in multiple ways.
 
@@ -17,7 +17,7 @@ A user can be created in multiple ways.
 
 <img width="956" alt="Screenshot 2024-04-25 075340" src="https://github.com/anuja2015/AZ-104/assets/16287330/999eda82-82d9-469e-b8cd-42b66a47550c">
 
-### __Groups__
+## __Groups__
 
 A collection of users who have been given specific access permissions for the resources on the azure cloud platform.
 
@@ -28,7 +28,7 @@ A collection of users who have been given specific access permissions for the re
 <img width="560" alt="Screenshot 2024-04-25 170654" src="https://github.com/anuja2015/AZ-104/assets/16287330/359cb5c7-ab03-409c-829b-9d88bdf495f4">
 
 
-### __Dynamic Groups__
+## __Dynamic Groups__
 
 Collection of users added based on a query. If a new user is created and matches the query, the same will be added to the group automatically.
 <img width="701" alt="Screenshot 2024-04-25 170830" src="https://github.com/anuja2015/AZ-104/assets/16287330/b3052d93-5514-4ed9-9409-12743f79e5ab">
@@ -37,7 +37,7 @@ Collection of users added based on a query. If a new user is created and matches
 
 <img width="910" alt="Screenshot 2024-04-25 171450" src="https://github.com/anuja2015/AZ-104/assets/16287330/b47daf6b-9911-4d21-9a7a-d5f40b3be69b">
 
-### Self service password reset
+## Self service password reset
 
 - Admins are always enabled for self service password reset and are required to user multi factor authentication to rest the password.
 - Others have to contact the administrators to rest their password.
