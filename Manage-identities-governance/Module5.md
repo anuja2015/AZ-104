@@ -1,11 +1,10 @@
-
-## Module:5 Configure Role Based Access Control(RBAC)
+# Module:5 Configure Role Based Access Control(RBAC)
 
 - It is a security feature in Azure, that grants specific permissions for the resources and applications in the organization.
 - Gives granular control
 - Follows the principle of least privilege
 
-### Role 
+## Role 
 
 - Defines a job to be done abstractly.
 - not related to the job title
@@ -16,7 +15,7 @@ There are 2 types of roles in azure.
 - __Azure AD (Entra ID) administrator roles:__ used for granting access for privileged actions in Microsoft Entra ID.
 - __Azure roles:__ Roles assigned for accessing azure resources.
   
-### Benefits of RBAC
+## Benefits of RBAC
 
 - Simpler management
 - less errors. make sure right role is assigned.
@@ -24,7 +23,7 @@ There are 2 types of roles in azure.
 
 
 
-### Managing the access to resources
+## Managing the access to resources
 
 Let's take storage account as an example. By default when a storage account is created, access permissions are managed by access keys. This is called Claim Based Access control. To enable RBAC we will have to enable Active Directory Authorization.
 
@@ -40,12 +39,12 @@ The default configuration would look like below.
 
 <img width="851" alt="Screenshot 2024-04-26 134205" src="https://github.com/anuja2015/AZ-104/assets/16287330/ae4d70f6-5ce1-49e5-ba48-213012799cf3">
 
-#### Enable AD Authorization
+### Enable AD Authorization
 
 <img width="754" alt="Screenshot 2024-04-26 134400" src="https://github.com/anuja2015/AZ-104/assets/16287330/fcb0f9e0-5611-409e-9d7c-a20bc03706fa">
 
 
-#### Assign permission to storage account
+### Assign permission to storage account
 
 There are primarily 3 kinds of roles
 __1. Owner__  - Grants access to all resources including the abiity to assign roles in RBAC
@@ -68,7 +67,7 @@ The marked roles are for Container blobs. We are assigning the owner role to use
 
 <img width="932" alt="Screenshot 2024-04-26 143558" src="https://github.com/anuja2015/AZ-104/assets/16287330/aef8a054-75ca-4f2c-9a95-65296b769468">
 
-### Custom RBAC role
+## Custom RBAC role
 - Custom RBAC roles can be created from scratch or from an existing role.
 - To create custom role Entra ID Premium P1 or P2 license is required.
 - It can be created in subscription scope.
