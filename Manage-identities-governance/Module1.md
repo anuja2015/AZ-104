@@ -1,4 +1,4 @@
-# Module 1- Configure Microsoft Entra ID
+# Module:1 Configure Microsoft Entra ID
 
 ## __Entra ID :__
 
