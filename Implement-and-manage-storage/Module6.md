@@ -118,7 +118,69 @@ __Azure File shares are ideal for:__
 
 - A service that stores non-relational structured data (also known as structured NoSQL data) in the cloud, providing a key/attribute store with a schemaless design.
 
+## Storage account types
 
+| __Storage Account Type__ | __Supported service__ | __Recommended usage__| |
+| -------------------------| --------------------- | ---------------------- |
+| Standard General purpose v2 | Blob storage, Azure files, Azure Tables, Queues | Standard storage account for most scenarios |
+| Premium block blobs | Blob storage including data lake | applications with high transaction rates or equire consistently low storage latency |
+| Premium file shares | Azure Files | enterprise or high-performance scale applications |
+| Premium page blobs | Page blobs only | storing index-based and sparse data structures, such as operating systems |
 
+__Note:__
+All storage account types are encrypted by using Storage Service Encryption (SSE) for data at rest.
 
+<img width="963" alt="Screenshot 2024-04-29 180005" src="https://github.com/anuja2015/AZ-104/assets/16287330/261cf2d1-07ca-482e-88aa-a4e29a5d6cef">
+
+## Replication Strategies
+
+<img width="956" alt="Screenshot 2024-04-29 180333" src="https://github.com/anuja2015/AZ-104/assets/16287330/72b2da48-5ad1-4259-a756-0b7052799347">
+
+The storage account data is replicated for high durability and high availability.
+
+### Locally Redundant Storage (LRS)
+
+- lowest cost option
+- least durable option.
+- data centre level replication.
+- 
+### Zone Redundant Storage (ZRS)
+
+- replicates data three storage clusters in a single region.
+- Each cluster is physically separated from each other and in their own availability zones.
+- provides excellent performance and low latency.
+- is not available in all regions.
+
+### Geo Redundant Storage (GRS)
+
+- replicates data to a secondary region far away from the primary location.
+- higher durability. atleast 99.99999999999999% durability.
+
+If GRS is implemented , there are two other options to select from: 
+
+1. __GRS__ replicates your data to another data center in a secondary region. The data is available to be read only, if Microsoft initiates a failover from the primary to secondary region.
+2. __Read-access geo-redundant storage (RA-GRS)__ is based on GRS. RA-GRS replicates your data to another data center in a secondary region, and also provides you with the option to read from the secondary region. With RA-GRS, you can read from the secondary region regardless of whether Microsoft initiates a failover from the primary to the secondary.
+
+For a storage account with GRS or RA-GRS enabled, 
+
+- all data is first replicated with locally redundant storage(LRS).
+- An update is first committed to the primary location and replicated by using LRS. The update is then replicated asynchronously to the secondary region by using GRS.
+- Data in the secondary region uses LRS.
+- Both the primary and secondary regions manage replicas across separate fault domains and upgrade domains within a storage scale unit.
+- The storage scale unit is the basic replication unit within the datacenter. Replication at this level is provided by LRS.
+
+### Geo Zone Redundant Storage (GZRS)
+
+- ZRS + GRS
+- replicates data three storage clusters (3 availability zones) in a single region.
+- Also replicated to a secondary geographic region for protection from regional disasters.
+- Each Azure region is paired with another region within the same geography, together making a regional pair.
+- can optionally enable read access to data in the secondary region with read-access geo-zone-redundant storage (RA-GZRS).
+- atleast 99.99999999999999% durability in a year.
+
+## Which replication strategy to choose when!
+
+| Node in data centre unavailable | Entire data center unavailable | Region wide outage | Read access during region-wide outage |
+| ------------------------------- | ------------------------------ | ------------------ | --------------------------------------|
+|LRS ,ZRS, GRS, RA-GRS, GZRS, RA-GZRS | ZRS, GRS, RA-GRS, GZRS, RA-GZRS | GRS, RA-GRS, GZRS, RA-GZRS | RA-GRS, RA-GZRS |
 
