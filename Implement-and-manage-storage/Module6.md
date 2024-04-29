@@ -74,7 +74,8 @@ There are __four__ data services that can be accessed using Azure storage accoun
 3. Azure Queue storage.
 4. Azure table storage.
 
-<img width="893" alt="Screenshot 2024-04-29 163940" src="https://github.com/anuja2015/AZ-104/assets/16287330/01f51f05-3e72-4618-b15d-86372894c68f">
+<img width="893" alt="Screenshot 2024-04-29 163940" src="https://github.com/anuja2015/AZ-104/assets/16287330/92ce67c2-ef47-4c2d-92d4-2a6508620dc8">
+
 
 
 ### Azure Blob Storage
