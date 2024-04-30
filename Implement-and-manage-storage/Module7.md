@@ -97,3 +97,34 @@ To transition the data to the appropriate access tiers, and set expiration times
 
 
 <img width="944" alt="Screenshot 2024-04-30 134330" src="https://github.com/anuja2015/AZ-104/assets/16287330/84e98164-585f-46a4-9c9a-ab725a60ceb5">
+
+## Blob types
+
+| __Block__ | __Append__ | __Page__ |
+| --------- | ---------- | -------- |
+|Blocks of data assembled | Blocks of data optimized for append operations | can be of 8TB in size |
+| text and binary data like  documents, images, videos | logging | operating system disks and data disks |
+| default blob type   |  | more efficient for frequent read/write operation |
+
+## Blob upload tools
+
+- The most common toll is Azure Storage Explorer.
+-  Other tools are AzCopy, Azure Data Box disk, Azure Import/Export.
+
+__AzCopy__
+
+- Commandline tool for windows and Linux
+
+__Azure Data Box Disk__
+
+- copying on-premise data to blob storage.
+- use to request SSD from Microsoft. Copy the data to the disks and send them back to Microsoft to upload the data blob storage.
+
+__Azure Import/Export__
+
+- Microsoft exports large amount of data to the hard drives given by us and ships back the drives with data.
+
+## Blob Versioning
+
+- automatically maintains previous versions of an object.
+- if the current version is deleted, previous versions are available.
