@@ -62,7 +62,14 @@ __Two important settings to note:__
 2. Protect against accidental deletions or unintended changes
 3. Support backup and recovery
 
+<img width="959" alt="Screenshot 2024-04-30 181505" src="https://github.com/anuja2015/AZ-104/assets/16287330/c8db94e9-3023-4134-9d33-11525641e91b">
 
+<img width="937" alt="Screenshot 2024-04-30 181533" src="https://github.com/anuja2015/AZ-104/assets/16287330/afaa1aef-cf59-4a7c-a598-eccba86140ec">
+
+<img width="959" alt="Screenshot 2024-04-30 181555" src="https://github.com/anuja2015/AZ-104/assets/16287330/a35786b2-3d4d-4950-936c-6c87743b2421">
+
+
+<img width="957" alt="Screenshot 2024-04-30 181614" src="https://github.com/anuja2015/AZ-104/assets/16287330/e083488c-154e-4e16-a977-12796ab1c208">
 
 
 
