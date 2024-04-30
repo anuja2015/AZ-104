@@ -34,7 +34,11 @@
 
 <img width="710" alt="Screenshot 2024-04-30 161059" src="https://github.com/anuja2015/AZ-104/assets/16287330/a1f55aeb-a187-4afb-adfc-5a87592a927e">
 
+
+
 If backup is enabled, then we should have a backup policy.
+
+
 
 <img width="959" alt="Screenshot 2024-04-30 160943" src="https://github.com/anuja2015/AZ-104/assets/16287330/c6f3ab09-c3c9-4341-9897-8cba8dc5876e">
 
