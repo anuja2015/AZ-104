@@ -39,4 +39,7 @@ There are 2 ways to switch between Tenants.
 
 Go to tenant directory -> Custom domain names -> Add custom domain -> Verify.
 
+<img width="956" alt="Screenshot 2024-04-30 191014" src="https://github.com/anuja2015/AZ-104/assets/16287330/65ce2560-771a-4345-b2fb-9fa88b4d8c90">
+
+
 If you have the control of the domain, you have to add TXT record in the domain list under Advanced DNS. If you dont have control, you have to get it done from the team who has the control.
