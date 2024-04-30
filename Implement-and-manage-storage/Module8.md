@@ -58,7 +58,7 @@ __Two important settings to note:__
 
 ### Benefits of share snapshots.
 
-1. Protect against application error and data corruption
+1. Protect against application error and data corruption - Application which access fileshare, may accidentally overwrite or corrupt a few data blocks. So it is better to take snapshot of the fileshare introducing new code, which can be used to restore in case of corruption.
 2. Protect against accidental deletions or unintended changes
 3. Support backup and recovery
 
@@ -71,6 +71,26 @@ __Two important settings to note:__
 
 <img width="957" alt="Screenshot 2024-04-30 181614" src="https://github.com/anuja2015/AZ-104/assets/16287330/e083488c-154e-4e16-a977-12796ab1c208">
 
+## Soft delete
 
+- enables to recover deleted files and shares.
+- enabled at storage account level
+- allows to configure retention period of 1 to 365 days.
+- doesnt work for NFS file shares.
+- After the retention period data gets deleted permanently.
+
+## Azure File Sync
+
+- enables to cache several Azure Files shares on an on-premises Windows Server or cloud virtual machine.
+- can be used to centralize your organization's file shares in Azure Files.
+
+### Cloud Tiering
+
+- feature of azure file sync
+- frequently accessed files are cached locally on the server while all other files are tiered to Azure Files based on policy settings
+- When a file is tiered, Azure File Sync replaces the file locally with a pointer. A pointer is commonly referred to as a reparse point. The reparse point represents a URL to the file in Azure Files.
+- Cloud tiering files have greyed icons with an offline O file attribute to let the user know when the file is only in Azure.
+
+  
 
 
