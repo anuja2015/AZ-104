@@ -79,4 +79,21 @@ To transition the data to the appropriate access tiers, and set expiration times
 
 <img width="761" alt="Screenshot 2024-04-30 122836" src="https://github.com/anuja2015/AZ-104/assets/16287330/edb169fb-c9f5-49f2-8567-afdf4d84501c">
 
+## Object Replication
 
+- copies blobs stored in a container to another asynchronously as per the rules configured.
+- The blob contents, the blob metadata and properties and any versions of data associated with the blob are copied from source container to destination container.
+- blob versioning should be enabled on both source and destination.
+- does not support snap shots.
+- access tier should be hot, cool or cold.
+
+<img width="950" alt="Screenshot 2024-04-30 134446" src="https://github.com/anuja2015/AZ-104/assets/16287330/7d0261f7-ed30-4b04-8a2a-4ba42a916500">
+
+
+<img width="958" alt="Screenshot 2024-04-30 134227" src="https://github.com/anuja2015/AZ-104/assets/16287330/0a28f4af-baba-4e1f-9f05-c95e5fda7a1d">
+
+
+<img width="952" alt="Screenshot 2024-04-30 134256" src="https://github.com/anuja2015/AZ-104/assets/16287330/d06a6e0d-6337-441a-b6e3-b88e302dd24e">
+
+
+<img width="944" alt="Screenshot 2024-04-30 134330" src="https://github.com/anuja2015/AZ-104/assets/16287330/84e98164-585f-46a4-9c9a-ab725a60ceb5">
