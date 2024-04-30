@@ -44,4 +44,11 @@
 
 <img width="959" alt="Screenshot 2024-04-30 161005" src="https://github.com/anuja2015/AZ-104/assets/16287330/57aaeb10-7c42-4eb6-ab94-95e9979e6334">
 
+__Two important settings to note:__
+
+1. port 445 should be open
+2. Enable secure transfer
+
+
+
 
