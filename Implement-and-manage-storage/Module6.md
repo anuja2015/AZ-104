@@ -184,3 +184,40 @@ For a storage account with GRS or RA-GRS enabled,
 | ------------------------------- | ------------------------------ | ------------------ | --------------------------------------|
 |LRS ,ZRS, GRS, RA-GRS, GZRS, RA-GZRS | ZRS, GRS, RA-GRS, GZRS, RA-GZRS | GRS, RA-GRS, GZRS, RA-GZRS | RA-GRS, RA-GZRS |
 
+
+## How to access storage?
+
+- each object created in the storage account has a URL address.
+- storage account name forms the sub domain of the URL.
+- domain name is specific to the data service.
+- subdomain + domain = endpoint of the storage account.
+- The URL to access an object in the storage account = append the object's location in the storage account to the endpoint.
+- Currently Azure storage doesnt support HTTPS . Azure Content Delivery Network can be implemented to access blobs over HTTPS.
+
+| __Service__ | __Default endpoint__ |
+| ----------- | -------------------- |
+| Container | //storageaccountname.blob.core.window.net |
+| Table | //storageaccountname.table.core.window.net |
+| Queue | //storageaccountname.queue.core.window.net |
+| File | //storageaccountname.file.core.window.net |
+
+Example: to access myblob inside mycontainer in the storage account mystorageaccount , the URL would be 
+//mystorageaccount.blob.core.window.net/mycontainer/myblob
+
+## Custom domains
+
+- custom domains can be configured by mapping custom domain and subdomain to a blob or web endpoint of the storage account.
+
+<img width="949" alt="Screenshot 2024-04-30 075727" src="https://github.com/anuja2015/AZ-104/assets/16287330/8894c92e-1827-4f14-bf8b-de661cc6d090">
+
+
+## Secure storage endpoints
+
+<img width="959" alt="Screenshot 2024-04-30 075521" src="https://github.com/anuja2015/AZ-104/assets/16287330/3cb738d3-b664-4fe6-af8e-013bad074641">
+
+__Firewalls and virtual networks__ settings :
+
+- restrict access to the storage account from specific subnets on virtual networks or public IPs.
+- Can configure the service to allow access to one or more public IP ranges.
+- Subnets and virtual networks must exist in the same Azure region or region pair as the storage account.
+
