@@ -1,5 +1,5 @@
 
-# Module9: 	Configure Azure Files and Azure File Sync 
+# Module8: 	Configure Azure Files and Azure File Sync 
 
 ## Azure Files
 
