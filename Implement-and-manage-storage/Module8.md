@@ -36,11 +36,12 @@
 
 
 
-If backup is enabled, then we should have a backup policy.
+#### If backup is enabled, then we should have a backup policy.
 
 
 
 <img width="959" alt="Screenshot 2024-04-30 160943" src="https://github.com/anuja2015/AZ-104/assets/16287330/c6f3ab09-c3c9-4341-9897-8cba8dc5876e">
 
 <img width="959" alt="Screenshot 2024-04-30 161005" src="https://github.com/anuja2015/AZ-104/assets/16287330/57aaeb10-7c42-4eb6-ab94-95e9979e6334">
+
 
