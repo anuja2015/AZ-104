@@ -49,6 +49,21 @@ __Two important settings to note:__
 1. port 445 should be open
 2. Enable secure transfer
 
+## File share snapshots
+
+- a point in time read only copy of the data in file share.
+- snapshots are incremental in nature. Only data changed since the most recent share snapshot is saved.
+- Though incremental, only the most recent share snapshot is sufficient to restore the data.
+- To delete a share that has share snapshots,first all its snapshots must be  deleted.
+
+### Benefits of share snapshots.
+
+1. Protect against application error and data corruption
+2. Protect against accidental deletions or unintended changes
+3. Support backup and recovery
+
+
+
 
 
 
