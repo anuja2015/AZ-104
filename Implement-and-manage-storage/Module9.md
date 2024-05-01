@@ -30,6 +30,16 @@
 
 <img width="950" alt="Screenshot 2024-05-01 115121" src="https://github.com/anuja2015/AZ-104/assets/16287330/bddc1833-c23c-4e4d-9a75-feed5997b766">
 
+__Note:__
+SAS provides account-level and service-level control.
+
+_Account level_ - access to resources in one or more Azure storage services.
+_Service level_ - access to resources to only one Azure storage service. For example SAS generated in the container level applies only to objects inside the container.
+
+
+<img width="959" alt="Screenshot 2024-05-01 122701" src="https://github.com/anuja2015/AZ-104/assets/16287330/dbcf883b-8ef3-4422-ba49-8af95ca132c3">
+
+
 #### SAS optional configuration settings.
 
 1. IPAddress - identify the IP address or range of IP addresses from which Azure storage resources accept SAS.
@@ -49,3 +59,23 @@ se-expiry time - 2024-05-01T14:15:52
 st-start time - 2024-05-01T06:15:52
 pr-protocol-https
 sig-signature
+
+## Stored Access Policies
+
+- As said earlier , the only way to break the SAS is to kill the signing key. But this is destructive  method. 
+- Another way to break SAS is to used stored access policy.
+- applicable  when we use service level SAS.
+
+<img width="954" alt="Screenshot 2024-05-01 122850" src="https://github.com/anuja2015/AZ-104/assets/16287330/7cc3573b-4694-4204-af2f-800823e70d8b">
+
+<img width="952" alt="Screenshot 2024-05-01 123050" src="https://github.com/anuja2015/AZ-104/assets/16287330/c4b1d7bb-dc5e-4177-a356-edd9897c11ed">
+
+<img width="425" alt="Screenshot 2024-05-01 123206" src="https://github.com/anuja2015/AZ-104/assets/16287330/c897d2a0-0af3-4ca0-8d21-fd3cfc2b8142">
+
+
+<img width="678" alt="Screenshot 2024-05-01 123247" src="https://github.com/anuja2015/AZ-104/assets/16287330/142db4af-29a5-4afe-8d2a-083a5e0274dd">
+
+<img width="959" alt="Screenshot 2024-05-01 123335" src="https://github.com/anuja2015/AZ-104/assets/16287330/2dbfaa63-3b59-41ac-8ad6-2572f081db9c">
+
+
+<img width="779" alt="Screenshot 2024-05-01 123451" src="https://github.com/anuja2015/AZ-104/assets/16287330/9d84a3ce-2f6a-4617-858c-a0f98b881390">
