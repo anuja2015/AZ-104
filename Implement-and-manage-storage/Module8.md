@@ -82,7 +82,8 @@ __Two important settings to note:__
 ## Azure File Sync
 
 - enables to cache several Azure Files shares on an on-premises Windows Server or cloud virtual machine.
-- can be used to centralize your organization's file shares in Azure Files.
+-  On-premise windows server or virtual machine becomes a quick cashe for teh azure file shares.
+- Azure File Sync in combination with Azure file shares allows  to centralize your organization's file shares.
 
 ### Cloud Tiering
 
