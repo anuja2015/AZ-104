@@ -120,7 +120,7 @@ __Azure File shares are ideal for:__
 
 ## Storage account types
 
-| __Storage Account Type__ | __Supported service__ | __Recommended usage__| |
+| __Storage Account Type__ | __Supported service__ | __Recommended usage__ |
 | -------------------------| --------------------- | ---------------------- |
 | Standard General purpose v2 | Blob storage, Azure files, Azure Tables, Queues | Standard storage account for most scenarios |
 | Premium block blobs | Blob storage including data lake | applications with high transaction rates or equire consistently low storage latency |
