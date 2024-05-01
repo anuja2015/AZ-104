@@ -30,3 +30,22 @@
 
 <img width="950" alt="Screenshot 2024-05-01 115121" src="https://github.com/anuja2015/AZ-104/assets/16287330/bddc1833-c23c-4e4d-9a75-feed5997b766">
 
+#### SAS optional configuration settings.
+
+1. IPAddress - identify the IP address or range of IP addresses from which Azure storage resources accept SAS.
+2. Protocol - specify the protocol over which Azure storage accepts SAS. configure it to HTTPS always.
+
+<img width="953" alt="Screenshot 2024-05-01 115710" src="https://github.com/anuja2015/AZ-104/assets/16287330/b9bee43d-5bb4-4feb-9b44-dcbcc7e5b46b">
+
+#### URI and parameter definitions
+
+https://securitystorageaccount32.blob.core.windows.net/?sv=2022-11-02&ss=bf&srt=sco&sp=rdlacitfx&se=2024-05-01T14:15:52Z&st=2024-05-01T06:15:52Z&spr=https&sig=jjCqhWwKT6OroBr%2FV5xqMJ9QjK%2FAC243oshdG1fGtps%3D
+
+Azure storage resourse url-https://securitystorageaccount32.blob.core.windows.net
+sv -storageversion-2022-11-02
+ss-storageservice-bf -> blob and files
+sp-storage permission-r
+se-expiry time - 2024-05-01T14:15:52
+st-start time - 2024-05-01T06:15:52
+pr-protocol-https
+sig-signature
