@@ -25,10 +25,6 @@ Module:8 Configure Azure Storage security
 
 Module:9 Configure Azure Files and Azure File Sync
 
-Module:10 Create an Azure Storage account 
-
-Module:11 Control access to Azure Storage with shared access signatures
-
 
 ### 3. Deploy and manage Azure compute resources (20-25%)
 ### 4. Configure and manage virtual networks for Azure administrators (15-20%)
