@@ -79,3 +79,25 @@ sig-signature
 
 
 <img width="779" alt="Screenshot 2024-05-01 123451" src="https://github.com/anuja2015/AZ-104/assets/16287330/9d84a3ce-2f6a-4617-858c-a0f98b881390">
+
+
+## Azure Storage Encryption
+
+- Data is encrypted before it is persisted to any of Azure storage service.
+- Encryption and decryption happens automatically.
+- Encryption, decryption and key management is transparent to the users.
+- All data is encrypted using 256-bit advanced encryption standard (AES) encryption.
+- enabled for all new and existing storage accounts and cannot be disabled.
+- encryption/decryptions keys can be managed by microsoft or by the customer.
+
+
+  
+<img width="956" alt="Screenshot 2024-05-01 125018" src="https://github.com/anuja2015/AZ-104/assets/16287330/b7766144-19cc-47f2-af57-83b0d1a5d569">
+
+### Customer Managed Keys
+
+- If customer is managing the keys , a key vault and a key for encryption has to be used, along with a managed identity to manage it.
+- The Azure storage account and the key vault must be in the same region, but they can be in different subscriptions.
+
+
+<img width="959" alt="Screenshot 2024-05-01 125215" src="https://github.com/anuja2015/AZ-104/assets/16287330/37953ad5-a2d8-4f21-98f6-24b6d300d32f">
