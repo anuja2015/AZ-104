@@ -167,6 +167,7 @@ __3. Managed disks__
 
 <img width="716" alt="Screenshot 2024-05-09 212305" src="https://github.com/anuja2015/AZ-104/assets/16287330/22ca1e16-ab5b-4b21-b028-141e8f137154">
 
-<img width="851" alt="Screenshot 2024-05-09 212529" src="https://github.com/anuja2015/AZ-104/assets/16287330/f9bfe773-3710-4332-beca-80edb645cb16">
+
+<img width="944" alt="Screenshot 2024-05-09 212529" src="https://github.com/anuja2015/AZ-104/assets/16287330/3b0e6931-c043-4126-a0ce-6389a6de5545">
 
    
