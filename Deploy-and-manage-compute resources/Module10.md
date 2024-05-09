@@ -80,5 +80,82 @@ __6. Azure Storage__
 - Azure Managed disks handles the creation and management of the storage account in the background.
 - we just hav to specify disk size and performance tier(Standard or Premium).
 
+## Virtual Machine Size
 
+| Classification | Description | Scenario to be used |
+| -------------- | ----------- | ------------------- |
+| General Purpose | balanced CPU-to-memory ratio | Testing and development,Small to medium databases,Low to medium traffic web servers |
+| Compute optimized | High CPU-to-memory ratio | Medium traffic web servers, Network appliances, Batch processes, Application servers |
+| Memory Optimized | high memory-to-CPU ratio |  Relational database servers, Medium to large caches, In-memory analytics |
+| Storage optimized | high disk throughput and I/O | Big Data, SQL and NoSQL databases, Data warehousing, Large transactional databases |
+| GPU | targeted for heavy graphics rendering and video editing | Model training, Inferencing with deep learning |
+| High performance computes | | Workloads that require fast performance, High traffic networks |
+
+### Resizing a VM
+
+- requires a restart.
+- may change IP Address
+
+## Virtual Machine Storage 
+
+- Azure VM have 
+  1. OS disk
+  2. temporary disk
+  3. Data disk (one or more)
+- All disks are Virtual Hard disks(VHD)
+
+__1. Operating system disk__
+
+- Each VM has __1__ OS disk.
+- has pre installed OS which is selected when VM is created.
+- registered as SATA drive (Serial Advanced Technology Attachment.
+- labelled as C: by default.
+
+__2. Temporary disk__
+
+- On Windows , D: by default. ---> used for storing the pagefile.sys file.
+- On Linux , /dev/sdb/. -----> formatted and mounted to /mnt by the Azure Linux Agent.
+- data on temporary disk will be lost when VM is redeployed.
+- Standard reboot doesnt effect the data on temporary disk.
+- data on temporary disk should not be critical.
+
+__3. Data disk__
+
+- managed disks attached to VM , used to store application data or any other data.
+- registered as SCSI drives and labelled with a letter.
+- The size of the virtual machine determines the number of data disks that can be attached and the storage to use to host the data disk.
+
+### Points to consider when choosing type of storage for VM.
+
+__1. Premium storage__
+
+- for high performance and low latency
+- store data on SSDs
+- can achieve 80,000 I/O operations per second (IOPS) per virtual machine.
+- can achieve a disk throughput of up to 2,000 megabytes per second (MB/s) per virtual machine.
+- read operations yield low latencies.
+
+__2. Multiple storage disks__
+
+- can attach multiple storage disks.
+
+__3. Managed disks__
+
+- stored as pageblobs
+- we provision , Azure creates and manages disks.
+- Ultra SSD, Premium SSD , Standard SSD, Standard HDD.
+
+
+## Connect to VM
+
+- SSH -> linux
+- RDP  -> windows
+- Cloud shell
+- Azure Bastion
+
+### Azure Bastion
+
+- fully platform managed PaaS
+- provides SSH/RDP connectivity over SSL.
+- When connecting using Bastion, VMs dont need public IP address.
    
