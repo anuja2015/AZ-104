@@ -158,4 +158,11 @@ __3. Managed disks__
 - fully platform managed PaaS
 - provides SSH/RDP connectivity over SSL.
 - When connecting using Bastion, VMs dont need public IP address.
+
+<img width="944" alt="Screenshot 2024-05-09 211206" src="https://github.com/anuja2015/AZ-104/assets/16287330/4d073655-f48b-4ba5-bdf4-b6213b0fcae7">
+
+
+<img width="919" alt="Screenshot 2024-05-09 211246" src="https://github.com/anuja2015/AZ-104/assets/16287330/6ee15ffa-ccfc-4066-b7ed-49cb0a9b361a">
+
+
    
