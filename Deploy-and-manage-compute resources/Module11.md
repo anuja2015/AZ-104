@@ -71,7 +71,7 @@ __Eg__: If there  2 VMs and 2 fault domains, the VMs do not share the power sour
 - Minimum of __3__ zones in each region.
 - SLA of 99.99%
 
-![Untitled](https://github.com/anuja2015/AZ-104/assets/16287330/d0b6667a-8289-410f-9f5e-b6b0ab682bc7)
+       ![Untitled](https://github.com/anuja2015/AZ-104/assets/16287330/d0b6667a-8289-410f-9f5e-b6b0ab682bc7)
 
 
 Azure services that support availability zones are divided into two categories:
