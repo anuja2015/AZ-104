@@ -2,6 +2,7 @@
 
 ## Azure App Service
 
+- fully managed web application hosting platform.
 - bundles together everything needed to create and run websites, Mobile Backends, web APIs for any platform or device.
 
 ### Benefits
