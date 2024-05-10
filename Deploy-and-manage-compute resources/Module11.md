@@ -71,7 +71,7 @@ __Eg__: If there  2 VMs and 2 fault domains, the VMs do not share the power sour
 - Minimum of __3__ zones in each region.
 - SLA of 99.99%
 
-       ![Untitled](https://github.com/anuja2015/AZ-104/assets/16287330/d0b6667a-8289-410f-9f5e-b6b0ab682bc7)
+![Untitled](https://github.com/anuja2015/AZ-104/assets/16287330/d0b6667a-8289-410f-9f5e-b6b0ab682bc7)
 
 
 Azure services that support availability zones are divided into two categories:
@@ -107,3 +107,56 @@ __Notes:__
 - needs downtime and can limit access to applications or data.
   
 2. Horizontal scaling is more flexible than vertical scaling.
+
+
+## Virtual Machine Scale Set
+
+- used to deploy and manage a set of identical VMs.
+- enables autoscaling.
+- VMSS automatically increases the number of VMs with increased workload and decreases the number of VMs with decreased workload.
+- VMs are created from same base OS image and configuration.
+- let easily manage hundreds of virtual machines without extra configuration tasks or network management.
+- supports Azure Load Balancer for layer 4 traffic and Application gateway for layer 7 traffic distribution.
+- used to run multiple instances of an application, so that if one VM goes down, the application is still accessible.
+- supports a maximum of 1000 VM instances.
+- If we are using our own OS images, the limit is 600 instances.
+
+  <img width="865" alt="Screenshot 2024-05-10 105617" src="https://github.com/anuja2015/AZ-104/assets/16287330/4a94ebda-1f5e-43fa-b33c-3100283c2eba">
+
+<img width="959" alt="Screenshot 2024-05-10 110333" src="https://github.com/anuja2015/AZ-104/assets/16287330/00c7027c-cb0f-4188-a73f-262f964f4192">
+
+<img width="953" alt="Screenshot 2024-05-10 110349" src="https://github.com/anuja2015/AZ-104/assets/16287330/cc3c3983-8337-4afb-9533-9fe4f80617cc">
+
+<img width="959" alt="Screenshot 2024-05-10 110412" src="https://github.com/anuja2015/AZ-104/assets/16287330/670f5015-dea8-416c-bc7f-fb644ffc8019">
+
+<img width="951" alt="Screenshot 2024-05-10 110453" src="https://github.com/anuja2015/AZ-104/assets/16287330/13af3b24-446b-4c58-a2d7-22e1d760ad99">
+
+<img width="928" alt="Screenshot 2024-05-10 110510" src="https://github.com/anuja2015/AZ-104/assets/16287330/cd056eec-34fa-4aa8-9be1-952b14829fdd">
+
+<img width="857" alt="Screenshot 2024-05-10 110548" src="https://github.com/anuja2015/AZ-104/assets/16287330/f5393357-1d07-48b0-bacd-25e83e088c69">
+
+  __Orchestration mode__
+
+  1. Uniform -identical instances -availability set
+  2. Flexible -  create and add a virtual machine of any configuration to the scale set.
+
+
+### Autoscaling
+
+- automatically increase or decrease the number of VMs  to meet the changing workloads.
+- rules can be created depending on the workload demands or for fixed times.
+
+<img width="806" alt="Screenshot 2024-05-10 111451" src="https://github.com/anuja2015/AZ-104/assets/16287330/2297a5b6-ca30-4f63-9907-d81f603dad85">
+
+<img width="794" alt="Screenshot 2024-05-10 111517" src="https://github.com/anuja2015/AZ-104/assets/16287330/b4769597-41ef-48a2-92f5-58fcd68b9f5f">
+
+<img width="440" alt="Screenshot 2024-05-10 111749" src="https://github.com/anuja2015/AZ-104/assets/16287330/c794f9a7-0d97-478f-97d8-ad5f8853c96f">
+
+<img width="434" alt="Screenshot 2024-05-10 111812" src="https://github.com/anuja2015/AZ-104/assets/16287330/ddb70021-08c4-4350-a7c5-a4a1bcfd0c1f">
+
+<img width="437" alt="Screenshot 2024-05-10 111837" src="https://github.com/anuja2015/AZ-104/assets/16287330/cb05f11f-03b8-46ac-ad7f-ebe2287ab605">
+
+<img width="866" alt="Screenshot 2024-05-10 112059" src="https://github.com/anuja2015/AZ-104/assets/16287330/87288c6a-a0f3-4ab9-ab11-8bef03086c82">
+
+
+
