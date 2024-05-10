@@ -30,7 +30,7 @@ Module:9 Configure Azure Files and Azure File Sync
 
 Module:10 Configure virtual machines 
 
-Module:11 Virtual machine availability
+Module:11 Configure virtual machine availability 
 
 Module:12 Configure Azure App Service plans 
 
