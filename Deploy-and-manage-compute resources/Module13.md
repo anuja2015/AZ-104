@@ -61,6 +61,62 @@ __Manual Deployment__
     ii. Continuous deployment settings (when enabled)
    iii. Azure App Service authentication settings (when enabled)
 
+  ## App service security
+
+  - Azure App Service provides built-in authentication and authorization support.
+  - The authentication and authorization security module in Azure App Service runs in the same environment as the application code, yet separately.
+  - The security module is configured by using app settings. No SDKs, specific languages, or changes to the application code are required.
+  - when security module is enabled, every incoming HTTP request passes through the module before it's handled by the application code.
+
+__The security module__ handles several tasks :
+
+- Authenticate users with the specified provider
+- Validate, store, and refresh tokens
+- Manage the authenticated session
+- Inject identity information into request headers
+
+
+## Back up and restore App service App
+
+- Azure App service webapp comes with automatic backup of 30 GB with any Basic, Standard, Premium, or Isolated App service plans.
+- Automatic backup doesnt include linked database and is hourly backup which cannot be configured. Retention period is 30 days.
+-Automatic backup doesnot require a storage account to be created.
+- If automatic backup is not satisfactory, we can use custom backup.
+
+<img width="959" alt="Screenshot 2024-05-10 181543" src="https://github.com/anuja2015/AZ-104/assets/16287330/ad7cb48b-246f-4dba-ab7b-edb45e9ebc46">
+
+
+- Custom back up and restore feature is available for Standard or Premium tier App Service plan.
+- In custom back up ,need an Azure storage account and container in the same subscription as the app to back up.
+- Custom backup can backup the following:
+    1.App configuration settings
+    2.File content
+    3.Any database connected to your app (SQL Database, Azure Database for MySQL, Azure Database for PostgreSQL, MySQL in-app)
+- In the storage account create for custom backup, each backup consists of a Zip file and XML file:
+    i. The Zip file contains the back-up data for the app or site.
+   ii. The XML file contains a manifest of the Zip file contents.
+- configure backups manually or on a schedule.
+- by default, backups are full backup
+- partial backups are also supported.can specify files and folders to exclude from a backup.
+- can hold up to 10 GB of app and database content.
+- Backups for the app or site are visible on the Containers page.
+- If the storage account is enabled with a firewall, it cant be used as the destination for backups.
+
+## Azure Application Insights
+
+- feature of Azure Monitor
+- can integrate Application Insights with the App Service configure to automatically detect performance anomalies in the apps.
+- analytics tools to help diagnose issues and understand what users actually do with the apps.
+- works on various platforms including .NET, Node.js and Java EE.
+- used for configurations that are hosted on-premises, in a hybrid environment, or in any public cloud.
+- integrates with Azure DevOps process, and has connection points to many development tools.
+
+![app-insights-16629887](https://github.com/anuja2015/AZ-104/assets/16287330/3c8c2440-525b-4074-9e07-5cc4a2301b91)
+
+
+
+
+
 
 
 
