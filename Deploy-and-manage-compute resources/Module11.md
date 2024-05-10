@@ -37,6 +37,7 @@ __3. Planned maintenance__
 - VMs run across multiple physical servers, storage units and network switches.
 - VM can be added to a availability set only at the time of creation.
 - can create Availability sets using Azure portal, ARM templates, scripting and APItools.
+- SLA of 99.95%
 
 ### Update Domains and Fault domains
 
@@ -58,6 +59,9 @@ __Fault domain__
 
 __Eg__: If there  2 VMs and 2 fault domains, the VMs do not share the power source and network switches. If there 4 VMs and 2 fault domains, 2 VMs share a common power source and network switch. 
 
+![Untitled-1](https://github.com/anuja2015/AZ-104/assets/16287330/d5c9820a-70e2-49d9-970b-179812de0cea)
+
+
 ## Availability Zones
 
 - protects applications and data from data centre failures.
@@ -65,6 +69,9 @@ __Eg__: If there  2 VMs and 2 fault domains, the VMs do not share the power sour
 - unique physical locations within an Azure region.
 - Each zone is made up of two or more data centers with independent power, network and cooling facilities.
 - Minimum of __3__ zones in each region.
+- SLA of 99.99%
+
+![Untitled](https://github.com/anuja2015/AZ-104/assets/16287330/d0b6667a-8289-410f-9f5e-b6b0ab682bc7)
 
 
 Azure services that support availability zones are divided into two categories:
