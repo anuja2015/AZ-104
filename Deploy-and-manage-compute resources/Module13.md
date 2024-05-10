@@ -28,3 +28,39 @@
 <img width="756" alt="Screenshot 2024-05-10 164133" src="https://github.com/anuja2015/AZ-104/assets/16287330/0c78ecae-e27b-4a39-a8d5-f0494c8b223e">
 
 
+### DevOps - Continuous integration and deployment.
+
+- we can connect the webapp with any of the following - Azure DevOps, GitHub,Bitbucket, FTP or a local git repository and App Service handles rest of the processes.
+- App Service auto-synchronizes the code and any future changes to the code into the web app.
+
+__Automated Deployment__
+
+- process used to push out new features and bug fixes in a fast and repetitive pattern with minimal impact on end users. Azure supports automated deployment directly from several sources:
+     1. Azure DevOps
+     2. GitHub
+     3. Bitbucket
+__Manual Deployment__
+
+- manually push  code to Azure.
+- Options for manually pushing code are:
+    1. Git: App service allows to add git url as a remote repository. Pushing to the remote repository deploys the app.
+    2. Visual Studio: Visual Studio features an App Service deployment wizard .
+    3. CLI : The webapp up command is a feature of the command-line interface that packages your app and deploys it.
+    4. FTP/FTPS : traditional way of pushing the code to many hosting environments, including App Service.
+
+## Deployment Slots
+
+- live apps that have their own hostnames.
+- available in the Standard, Premium, and Isolated App Service pricing tiers.
+- The Standard, Premium, and Isolated tiers offer different numbers of deployment slots.
+- App content and configuration elements can be swapped between two deployment slots, including the production slot.
+- New deployment slots can be empty or cloned.
+- Cloned configuration is editable.
+- Deployment slot settings fall into three categories:
+     i. Slot-specific app settings and connection strings (if applicable)
+    ii. Continuous deployment settings (when enabled)
+   iii. Azure App Service authentication settings (when enabled)
+
+
+
+
