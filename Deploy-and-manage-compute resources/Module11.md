@@ -1,1 +1,1 @@
-
+# Configure virtual machine availability 
