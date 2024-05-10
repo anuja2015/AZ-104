@@ -28,10 +28,23 @@
 - Virtual network deployment: Container Instances can be deployed into an Azure virtual network.
 - Azure Container Instances (ACI) can be managed in several ways. __Azure Container Apps (ACA)__ is one way, and __Azure Kubernetes Service (AKS)__ is another.
 
+## Container group
+
+- A collection of containers that get scheduled on the same host machine.
+- The containers in a container group share a lifecycle, resources, local network, and storage volumes.
+- Azure Container Instances allocates resources to a multi-container group by adding together the resource requests of all containers in the group.
+- two common ways to deploy a multi-container group: Azure Resource Manager (ARM) templates and YAML files.
+     ARM template: recommended for other azure services when creating a container instances, such as azure Files file share.
+     YAML : recommended when the deployment includes only container instances.
+- Container groups can share an external-facing IP address, one or more ports on the IP address, and a DNS label with an FQDN.
+- External client access: The port on the IP address is exposed and from the container to enable external clients to reach a container in a container group.
+- Port mapping: not supported as container group share a port namespace.
+- Deleted groups: When a container group is deleted, its IP address and FQDN are released
+
 ## Azure Container Apps 
 
 - a serverless platform that allows  to maintain less infrastructure and save costs while running containerized applications.
-- 
+  
 
 __Common uses of Azure Container Apps:__
 
@@ -48,17 +61,4 @@ Applications built on Azure Container Apps can __dynamically scale__ based on th
 - Any KEDA-supported scaler
 
 
-
-## Container group
-
-- A collection of containers that get scheduled on the same host machine.
-- The containers in a container group share a lifecycle, resources, local network, and storage volumes.
-- Azure Container Instances allocates resources to a multi-container group by adding together the resource requests of all containers in the group.
-- two common ways to deploy a multi-container group: Azure Resource Manager (ARM) templates and YAML files.
-     ARM template: recommended for other azure services when creating a container instances, such as azure Files file share.
-     YAML : recommended when the deployment includes only container instances.
-- Container groups can share an external-facing IP address, one or more ports on the IP address, and a DNS label with an FQDN.
-- External client access: The port on the IP address is exposed and from the container to enable external clients to reach a container in a container group.
-- Port mapping: not supported as container group share a port namespace.
-- Deleted groups: When a container group is deleted, its IP address and FQDN are released
 
