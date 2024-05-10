@@ -89,6 +89,9 @@ __2. Zone redundant services__
 - Also known as scale out and scale in.
 - increase in number of VMs in the configuration to support workload.
 
+  ![Untitled](https://github.com/anuja2015/AZ-104/assets/16287330/23d242c7-d5d5-4b12-abdd-58f6d96db70c)
+
+
 __Notes:__
 
 1. Vertical scaling has limitations
