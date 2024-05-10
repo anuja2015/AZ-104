@@ -28,15 +28,18 @@ Module:9 Configure Azure Files and Azure File Sync
 
 ### 3. Deploy and manage Azure compute resources (20-25%)
 
-Module:10 Configure virtual machines and virtual machine availability
+Module:10 Configure virtual machines 
 
-Module11: Configure Azure App Service plans 
+Module:11 Virtual machine availability
 
-Module12: Configure Azure App Service 
+Module:12 Configure Azure App Service plans 
 
-Module13: Configure Azure Container Instances
+Module:13 Configure Azure App Service 
 
-Module14: Host a web application with Azure App Service 
+Module:14 Configure Azure Container Instances
+
+Module:15 Host a web application with Azure App Service
+
 ### 4. Configure and manage virtual networks for Azure administrators (15-20%)
 
 ### 5. Monitor and back up Azure resources (10-15%)
