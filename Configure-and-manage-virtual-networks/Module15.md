@@ -96,6 +96,33 @@ A basic VM with no ports open and no public IP address have been created.
 ![image](https://github.com/anuja2015/AZ-104/assets/16287330/9628e3de-c60a-45cf-bd42-1babda4f48cf)
 
 
+#### __IP Address SKUs__
+
+| Feature | Basic SKU | Standard SKU |
+| ------- | --------- | ------------ |
+| IP assignment | Static or Dynamic | Static |
+| Security | Open by default | inbound closed by default |
+| Resources | Network interfaces, VPN gateways, Application gateways, and internet-facing load balancers | Network interfaces or public standard load balancers |
+| Redundancy | Not Zone redundant | Zone redundancy|
+
+
+### Associate IP Address
+
+A public IP address resource, static or dynamic can be associated with 
+1. Virtual machine network interfaces
+2. Internet-facing load balancers
+3. VPN gateways
+4. Application gateways.
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/c0a3d8fc-497f-4107-8904-68dba2f3735d)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/7b5aaa33-2df5-48e0-b729-4bf5fa5c1120)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/ef550769-e630-40f5-bc7f-51a2786fdcd7)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/2791231a-02ee-48f5-8743-d11c8e887a03)
+
+
 
 
 
