@@ -48,6 +48,7 @@
 
 - A collection of containers that get scheduled on the same host machine.
 - The containers in a container group share a lifecycle, resources, local network, and storage volumes.
+- Container group is analogous to a pod in K8s. 
 - Azure Container Instances allocates resources to a multi-container group by adding together the resource requests of all containers in the group.
 - two common ways to deploy a multi-container group: Azure Resource Manager (ARM) templates and YAML files.
      ARM template: recommended for other azure services when creating a container instances, such as azure Files file share.
@@ -56,6 +57,45 @@
 - External client access: The port on the IP address is exposed and from the container to enable external clients to reach a container in a container group.
 - Port mapping: not supported as container group share a port namespace.
 - Deleted groups: When a container group is deleted, its IP address and FQDN are released
+
+![Untitled](https://github.com/anuja2015/AZ-104/assets/16287330/c4a666d2-9189-4b74-8f79-2fb7eebc6867)
+
+### Create a container group using YAML
+
+               apiVersion: 2019-12-01
+               location: East US
+               type: Microsoft.ContainerInstance/containerGroups
+               name: myContainerGroup
+               properties:
+                 containers:
+                   - name: aci-demo-app
+                     properties:
+                       image: mcr.microsoft.com/azuredocs/aci-helloworld:latest
+                       resources:
+                         requests:
+                           cpu: 1
+                           memoryInGb: 1.5
+                       ports: 
+                       - port: 80
+                       - port: 8080
+                   - name: 
+                     properties:
+                       image: mcr.microsoft.com/azuredocs/aci-tutorial-sidecar
+                       resources:
+                         requests:
+                           cpu: 1
+                           memoryInGb: 1.5
+               osType: Linux
+               ipAddress:
+                 type: Public
+                 ports:
+                 - protocol: tcp
+                   port: 80
+                 - protocol: tcp
+                   port: 8080
+               tags: {Tag: aci-demo}
+
+
 
 ## Azure Container Apps 
 
