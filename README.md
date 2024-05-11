@@ -40,6 +40,20 @@ Module:14 Configure Azure Container Instances
 
 ### 4. Configure and manage virtual networks for Azure administrators (15-20%)
 
+Module:15 Configure virtual networks 
+
+Module:16 Configure network security groups 
+
+Module:17 Configure Azure DNS 
+
+Module:18 Configure Azure Virtual Network peering 
+
+Module:19 Configure network routing and endpoints
+
+Module:20 Configure Azure Load Balancer 
+
+Module:21 Configure Azure Application Gateway 
+
 ### 5. Monitor and back up Azure resources (10-15%)
 
 __Note :__ This is as per October 2023!
