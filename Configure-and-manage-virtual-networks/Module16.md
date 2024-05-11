@@ -26,4 +26,7 @@
 - Security rules are processed in the priority order.
 - Lower the priority value, higher the precedence.
 - To override a security rule, create a new rule with lower priority value than the latter.
-- 
+
+
+![Untitled](https://github.com/anuja2015/AZ-104/assets/16287330/8bc5055d-5a66-4153-bf21-d9d14022da72)
+
