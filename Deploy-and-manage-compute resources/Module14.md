@@ -138,6 +138,11 @@
 
 ![image](https://github.com/anuja2015/AZ-104/assets/16287330/e0431b90-6ec8-4e36-acea-7cc694986def)
 
+#### 7. View the running application using the public Ip.
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/901ce1bb-05ec-4813-9822-56a12b0eee7a)
+
+
 
 ## Azure Container Apps 
 
