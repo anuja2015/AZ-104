@@ -32,7 +32,7 @@
 
 <img width="944" alt="Screenshot 2024-05-11 075921" src="https://github.com/anuja2015/AZ-104/assets/16287330/a849f106-a668-4d37-b7b2-eb62d929f016">
 
-<img width="959" alt="Screenshot 2024-05-11 075943" src="https://github.com/anuja2015/AZ-104/assets/16287330/db892694-0119-429c-97c2-1d5d9120cd6c">
+<img width="959" alt="Screenshot 2024-05-11 075943" src="https://github.com/anuja2015/AZ-104/assets/16287330/1ac56136-698a-4ea2-bbf3-10806c7cbbf7">
 
 <img width="959" alt="Screenshot 2024-05-11 080036" src="https://github.com/anuja2015/AZ-104/assets/16287330/2154436c-2cac-4910-b895-a2b35822d016">
 
