@@ -28,6 +28,20 @@
 - Virtual network deployment: Container Instances can be deployed into an Azure virtual network.
 - Azure Container Instances (ACI) can be managed in several ways. __Azure Container Apps (ACA)__ is one way, and __Azure Kubernetes Service (AKS)__ is another.
 
+<img width="959" alt="Screenshot 2024-05-11 075903" src="https://github.com/anuja2015/AZ-104/assets/16287330/fea64b16-012f-4c26-8b8d-f4b5086dabf8">
+
+<img width="944" alt="Screenshot 2024-05-11 075921" src="https://github.com/anuja2015/AZ-104/assets/16287330/a849f106-a668-4d37-b7b2-eb62d929f016">
+
+<img width="959" alt="Screenshot 2024-05-11 075943" src="https://github.com/anuja2015/AZ-104/assets/16287330/db892694-0119-429c-97c2-1d5d9120cd6c">
+
+<img width="959" alt="Screenshot 2024-05-11 080036" src="https://github.com/anuja2015/AZ-104/assets/16287330/2154436c-2cac-4910-b895-a2b35822d016">
+
+<img width="959" alt="Screenshot 2024-05-11 080107" src="https://github.com/anuja2015/AZ-104/assets/16287330/80c17637-9b3e-4d1b-b75b-44b153c13d30">
+
+<img width="951" alt="Screenshot 2024-05-11 080313" src="https://github.com/anuja2015/AZ-104/assets/16287330/af02b517-edd9-496c-8b5b-4c53635d9644">
+
+<img width="959" alt="Screenshot 2024-05-11 080345" src="https://github.com/anuja2015/AZ-104/assets/16287330/115edd00-77cd-4b12-8703-96cbf5e43074">
+
 ## Container group
 
 - A collection of containers that get scheduled on the same host machine.
