@@ -73,6 +73,34 @@ When a Vnet is created, a default subnet will be created automatically.
 
 ![image](https://github.com/anuja2015/AZ-104/assets/16287330/eab9d1a5-2929-4a4a-a94b-243cec0d77ce)
 
+### Deploy a VM to Vnet
+
+A basic VM with no ports open and no public IP address have been created.
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/2aee1666-4544-4093-a6df-45d21d484c1e)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/171d9ca2-452c-4c04-b25d-c91477e3b7db)
+
+### Create a Public IP
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/fca1c844-fc87-4eaf-b8c6-f205f6be58b2)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/0408159d-c64f-4594-a4e5-25edced07cb0)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/5c1b90a3-9b97-496a-823e-ea2537ca504c)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/f6e95c22-7964-424f-ac30-b919a35a5155)
+
+#### Dynamic IP Assignment is allowed if SKU is Basic. During dynamic IP assignment , IP address itself is generated only when it is assigned to a resource.
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/9628e3de-c60a-45cf-bd42-1babda4f48cf)
+
+
+
+
+
+
+
 
 
 
