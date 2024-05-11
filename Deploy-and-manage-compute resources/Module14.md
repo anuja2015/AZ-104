@@ -27,6 +27,8 @@
 - Linux and Windows containers: Container Instances can schedule both Windows and Linux containers.
 - Virtual network deployment: Container Instances can be deployed into an Azure virtual network.
 - Azure Container Instances (ACI) can be managed in several ways. __Azure Container Apps (ACA)__ is one way, and __Azure Kubernetes Service (AKS)__ is another.
+- There is no manual or automated scaling in Azure container instances. Only option is to redeploy a new ACI.
+- Scaling is possible with the use of container groups or AKS.
 
 <img width="959" alt="Screenshot 2024-05-11 075903" src="https://github.com/anuja2015/AZ-104/assets/16287330/fea64b16-012f-4c26-8b8d-f4b5086dabf8">
 
