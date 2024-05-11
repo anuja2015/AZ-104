@@ -38,8 +38,6 @@ Module:13 Configure Azure App Service
 
 Module:14 Configure Azure Container Instances
 
-Module:15 Host a web application with Azure App Service
-
 ### 4. Configure and manage virtual networks for Azure administrators (15-20%)
 
 ### 5. Monitor and back up Azure resources (10-15%)
