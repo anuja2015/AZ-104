@@ -163,5 +163,9 @@ Applications built on Azure Container Apps can __dynamically scale__ based on th
 - CPU or memory load
 - Any KEDA-supported scaler
 
+## Azure Container Registry
+
+- allows to build, store, and manage container images and artifacts in a private registry for all types of container deployments.
+- Pricing tier : Basic (development use) , Standard (most Production scenarios) and Premium (geo replication and private access)
 
 
