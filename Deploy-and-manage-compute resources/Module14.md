@@ -62,6 +62,11 @@
 
 ### Create a container group using YAML
 
+#### 1. create a file deploy-aci.yaml
+
+<img width="959" alt="Screenshot 2024-05-11 102627" src="https://github.com/anuja2015/AZ-104/assets/16287330/058e5731-3e93-43a0-b2fa-d67e0726b58d">
+
+
                apiVersion: 2019-12-01
                location: East US
                type: Microsoft.ContainerInstance/containerGroups
@@ -78,23 +83,60 @@
                        ports: 
                        - port: 80
                        - port: 8080
-                   - name: 
+                   - name: aci-demo-sidecar
                      properties:
                        image: mcr.microsoft.com/azuredocs/aci-tutorial-sidecar
                        resources:
                          requests:
                            cpu: 1
                            memoryInGb: 1.5
-               osType: Linux
-               ipAddress:
-                 type: Public
-                 ports:
-                 - protocol: tcp
-                   port: 80
-                 - protocol: tcp
-                   port: 8080
+                   osType: Linux
+                   ipAddress:
+                     type: Public
+                     ports:
+                     - protocol: tcp
+                       port: 80
+                     - protocol: tcp
+                       port: 8080
                tags: {Tag: aci-demo}
 
+#### 2. create a resource group for the container group.
+
+          az group create --name azContainerRG --location EastUS     
+
+<img width="876" alt="Screenshot 2024-05-11 104724" src="https://github.com/anuja2015/AZ-104/assets/16287330/60696ed4-8a85-4cf6-8af6-de6bedbdf588">
+
+#### 3. create the container group
+
+          az container create --resource-group azContainerRG --file deploy-aci.yaml
+
+<img width="959" alt="Screenshot 2024-05-11 105556" src="https://github.com/anuja2015/AZ-104/assets/16287330/5e848900-f400-4017-85e2-a17b711c1bbc">
+
+<img width="956" alt="Screenshot 2024-05-11 105617" src="https://github.com/anuja2015/AZ-104/assets/16287330/9a526b7d-0957-4c61-8464-45010639a639">
+
+#### 4. View the deployment status
+
+          az container show --resource-group azContainerRG --name myContainerGroup --output table
+
+<img width="959" alt="Screenshot 2024-05-11 110116" src="https://github.com/anuja2015/AZ-104/assets/16287330/2b5d7b04-d46a-4aac-9f79-e033f1d01f97">
+
+#### 5. View the logs
+
+          az container logs --resource-group azContainerRG --name myContainerGroup --container-name aci-demo-app
+          az container logs --resource-group azContainerRG --name myContainerGroup --container-name aci-demo-sidecar
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/bf5a7182-edcd-4393-b406-cc0775310c2a)
+
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/8aa270b8-e740-4cfc-9e78-0c61d6cf05c1)
+
+#### 6. view container group in Azure portal
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/7de9edbc-c499-48f7-ae83-167fd72535c7)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/30f07898-861b-40a6-b8ab-5aecbe08d673)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/e0431b90-6ec8-4e36-acea-7cc694986def)
 
 
 ## Azure Container Apps 
