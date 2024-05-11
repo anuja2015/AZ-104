@@ -168,4 +168,14 @@ Applications built on Azure Container Apps can __dynamically scale__ based on th
 - allows to build, store, and manage container images and artifacts in a private registry for all types of container deployments.
 - Pricing tier : Basic (development use) , Standard (most Production scenarios) and Premium (geo replication and private access)
 
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/f52c733e-f27c-4191-abed-d8c5d345b8bb)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/797dd5b0-3be3-4b6f-b267-8aa72f32da77)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/ba23f24f-85fe-4a71-81ee-461b359d8ff0)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/19d22d62-70ed-43c9-a058-a6c12832663f)
+
+
+
 
