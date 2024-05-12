@@ -45,8 +45,43 @@ __Global Peering__ : connects virtual networks that exist in different regions.
 
 ![image](https://github.com/anuja2015/AZ-104/assets/16287330/29c30cd5-3856-45b6-a632-052e46d2fb77)
 
+#### Ping each other using private Ips.
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/3bc24bd8-53de-4cda-beed-6688a9952e0d)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/1c07cd9f-cf98-416b-8a1c-9927d6b7093f)
+
+##### VM1 to VM2
 
 ![image](https://github.com/anuja2015/AZ-104/assets/16287330/7e482542-161d-4937-b2cf-59b8f65230bf)
+
+##### VM2 to VM1
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/c7e7adeb-ad6b-454b-8053-0d03650cbda2)
+
+
+### Global peering
+
+There are 2 Virtual networks _vnet1_(10.0.0.0/16) in East US and _vnet3_(10.1.0.0/16) in Central India. The VM _vnet1VM_ is in _vnet1_ and the VM _vnet3VM_ is in _vnet3_.
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/aac1db4e-463b-4849-9650-b5542ec56ed8)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/00cd1dc4-46fd-4c44-a010-1bc92f49a830)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/e6e33875-47de-4886-b0e1-8f5fa9ca9cf2)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/947d68fc-e086-4b8f-ab37-5af7eace49e5)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/a42b18be-4584-4d82-ac2d-83abf3f3f145)
+
+##### VM1 to VM3
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/3350caef-4679-4acd-adb5-9db570d5ac88)
+
+##### VM3 to VM1
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/cd4a6568-9ed4-40c3-8707-396ccac6918e)
+
 
 
 
