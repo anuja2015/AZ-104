@@ -125,12 +125,24 @@ I have 2 virtual networks , one in East US and another in Central India
 
 ![image](https://github.com/anuja2015/AZ-104/assets/16287330/18a4129a-a0dd-4109-9d20-96f65e9668c6)
 
-![image](https://github.com/anuja2015/AZ-104/assets/16287330/0388e8b6-e588-400f-97d3-297352379f6d)
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/cd2f8f96-7013-4e0d-8e15-ef74aef627ef)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/458a76d1-5921-4b00-aa52-98903d5a996e)
 
 
+#### 6. Create a connection from Vnet2 to Vnet1
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/834baac8-81b4-4bb8-8a27-fdbf61e9714a)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/4b140439-28b3-4c55-8a26-834ea87c9614)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/459dd4fd-fac5-45d2-ba52-6849c6abdce7)
 
 
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/5c25d4e9-34a5-40c6-8ea6-7f63e41f3329)
 
+
+__Note: The shared key should be the same for both connections__
 
 
 
