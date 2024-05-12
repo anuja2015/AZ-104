@@ -60,3 +60,35 @@ __3. Delegate sub domains__
 - Find the existing NS records for the parent domain.
 - Create new NS records for the child DNS zone (subdomain).
 
+## Private DNS Zone
+
+- name resolution for virtual machines within your virtual network and between virtual networks.
+
+Suppose I have 2 VM's in the same Vnet and I would like to address then as web and db. 
+
+#### 1. Create Private DNS zone
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/3f05d934-d0c6-4392-af41-27636952f60d)
+
+
+#### 2. Link Virtual network to the DNS zone with auto registration.
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/35e29417-8861-4c96-a9ae-3351a6d79f90)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/cc451939-6902-4f0e-9efd-ae033eef12f4)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/40ea198f-2a57-4c9a-a789-40e526a256a9)
+
+
+#### 3. Add dns records
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/f99e02ad-db58-412e-9732-991ca21f43b6)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/78f0d02c-a2cc-4332-ae77-2a9fbc4250f9)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/f24fc988-e128-4019-b199-067fe03ff16d)
+
+#### 4. Ping each other using dns names
+
+
+
