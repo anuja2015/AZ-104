@@ -104,6 +104,53 @@ __Effective rule evaluation here will be :__
 
  Outbound traffic : Azure defaults will be applied to both subnet and NIC.
 
+## Application security group(ASG)
+
+- Suppose there are multiple VMs in a Vnet and we need traffic to be allowed only to a few VMs, we will have to specify IP addresses as the destination in NSG. When the number of IP addresses increases it becomes difficult to manage.
+- ASG allows to group the VMs and the destination in NSG will be any ASG , which eliminates the hurdle of managing IP addresses.
+
+#### 1. Create Application security groups
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/81d6e6a0-774f-492c-bfeb-3cc50d2598d2)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/b55c9c44-6059-487f-a71e-99acd73b0d68)
+
+#### 2. Adding VM1 and VM5 to ASGweb
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/14cc03e3-06ca-4703-9ab5-7a12ca19b68d)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/8157cc66-6b4a-4207-a506-0cf41677b96a)
+
+#### 3. Adding VM3 to ASGdb
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/5dd5b5c1-8706-4898-8162-dd22594bf4c2)
+
+#### 4. Configuring VM1-NSG to allow traffic from VM1 and VM5 to VM3
+
+__1. Allow traffic from VM1 and VM5__
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/74d04561-a5b1-461c-a850-b6ecb3bf2417)
+
+__2. Deny traffic from any to VM3__ (priority value should be more than above)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/6306331a-21db-48ff-9382-912c936e0cc1)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/fa7a1e30-d4d5-44e2-b5d5-c9a1301e8d91)
+
+#### 5. Configure VM1-NSG to allow traffic from internet to VM1 and VM5.
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/ea062399-9da7-4b85-9651-7c3e7350ec59)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/da64e0b4-79c1-489f-b476-0e9b8ab39422)
+
+#### 6. Associate the NSG with the VMs
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/8f029693-e21d-4f4c-8ff5-fa9da902f1b9)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/e94a5872-378a-4bd4-8892-eaf05d191e43)
+
+
+
 
 
 
