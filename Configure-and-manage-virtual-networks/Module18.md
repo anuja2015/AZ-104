@@ -93,6 +93,9 @@ There are 2 Virtual networks _vnet1_(10.0.0.0/16) in East US and _vnet3_(10.1.0.
 
 ## Virtual Network Gateway
 
+- Another way to establish communication between two virtual networks is using Virtual network gateways.
+  
+I have 2 virtual networks , one in East US and another in Central India
 
 ![image](https://github.com/anuja2015/AZ-104/assets/16287330/351f52bc-e51c-49e9-894a-99d96e81003d)
 
@@ -117,6 +120,12 @@ There are 2 Virtual networks _vnet1_(10.0.0.0/16) in East US and _vnet3_(10.1.0.
 ![image](https://github.com/anuja2015/AZ-104/assets/16287330/4d2a00a3-f376-4394-97cc-103c6992ca84)
 
 ![image](https://github.com/anuja2015/AZ-104/assets/16287330/126703b3-48d9-4307-96dd-59e69cc7960c)
+
+#### 5. Create a connection from Vnet1 to Vnet2
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/18a4129a-a0dd-4109-9d20-96f65e9668c6)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/0388e8b6-e588-400f-97d3-297352379f6d)
 
 
 
