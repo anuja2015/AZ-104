@@ -56,3 +56,54 @@ This is how Azure would evaluate the security rules to determine effective rules
 | VM4 | Nil | Nil | Azure default rules apply to both subnet and NIC and all inbound traffic is allowed | Azure default rules apply to both subnet and NIC and all outbound traffic is allowed |
 
 
+__I have a VM _vnetdemoVM_ with a NIC _vnetdemovm569_ , No NSG attached.__ 
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/252aefa7-2893-4ebf-b92e-a681e9c371c5)
+
+#### Create 2 NSGs 
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/e47bfdf8-547e-4004-9f7e-0af9f63bdcab)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/2b2b0a9e-c3ba-4269-b4e4-f38f307ceecf)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/1a181e72-7207-40af-8411-282b8463a878)
+
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/1b104477-8548-41fe-9133-5f75ba764659)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/ac417291-1928-47e1-bd7e-7ef82d0e6b29)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/f1e36b50-c097-48ee-9df4-9ed4b75bfa69)
+
+#### Configure _vnetnsg1_
+
+I will add rules for allowing inbound traffic both HTTP(80) and HTTPS(443)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/4444a52a-1ed7-4faf-b613-75aaf868e8a5)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/d7731815-85d6-4367-8a51-ad2e92655ad1)
+
+#### Configure _vnetNSG2_
+
+I will add rules contradictory to _vnetnsg1_, allowing only HTTPS(443) inbound traffic.
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/a0925c1a-792f-4b3f-9dba-2a4216e217d4)
+
+#### Attach _vnetnsg1_ to subnet
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/bac9cbb1-a711-4159-a76e-20abe5b941da)
+
+#### Attach _vnetNSG2_ to NIC
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/b9c0bf20-8627-4d26-baa1-5cd0b46e70af)
+
+
+__Effective rule evaluation here will be :__
+
+ Inbound traffic: _vnetnsg1_ rules will be applied to subnet allowing the traffic to enter subnet. _vnetNSG2_ will be applied to NIC allowing only https traffic to reach the VM
+
+ Outbound traffic : Azure defaults will be applied to both subnet and NIC.
+
+
+
+
