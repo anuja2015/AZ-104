@@ -30,3 +30,4 @@
 
 ![Untitled](https://github.com/anuja2015/AZ-104/assets/16287330/8bc5055d-5a66-4153-bf21-d9d14022da72)
 
+## Implement Effective security rules
