@@ -91,5 +91,38 @@ There are 2 Virtual networks _vnet1_(10.0.0.0/16) in East US and _vnet3_(10.1.0.
 
   ![service-chains-5c9286d1](https://github.com/anuja2015/AZ-104/assets/16287330/d5868d47-9705-4749-b268-40cc84aa507a)
 
+## Virtual Network Gateway
+
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/351f52bc-e51c-49e9-894a-99d96e81003d)
+
+#### 1. Create a gateway subnet on Vnet1
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/53ef2fca-adf4-4a0a-87c3-b8f0b438e003)
+
+#### 2. Create gateway subnet on Vnet2
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/76daa948-073a-4836-9480-fb1ee5fc7ade)
+
+#### 3. Create virtual network gateway on Vnet1
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/268715d2-28e9-45cd-889c-eb8cdd3894a1)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/19754c0c-b8fa-498d-af61-2c29483e6715)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/9a354065-4da4-4263-9e5e-a1c1e8ae733c)
+
+#### 4. Create virtual network gateway on Vnet2
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/4d2a00a3-f376-4394-97cc-103c6992ca84)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/126703b3-48d9-4307-96dd-59e69cc7960c)
+
+
+
+
+
+
+
 
 
