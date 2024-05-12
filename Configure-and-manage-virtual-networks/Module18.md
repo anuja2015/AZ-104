@@ -83,6 +83,13 @@ There are 2 Virtual networks _vnet1_(10.0.0.0/16) in East US and _vnet3_(10.1.0.
 ![image](https://github.com/anuja2015/AZ-104/assets/16287330/cd4a6568-9ed4-40c3-8707-396ccac6918e)
 
 
+- Virtual Network peering in not transitive. For example: If there 3 virtual networks A,B,and C. Vnet A and Vnet B are connected by vnet peering and  Vnet peering is established between vnet B and vnet C. These peering capabilities establish doesnot automatically enable peering communication between vnet A and vnet C.
+- Extended peering can be established by
+     1. hub and spoke architecture
+     2. User defined routes
+     3. service chaining
+
+  ![service-chains-5c9286d1](https://github.com/anuja2015/AZ-104/assets/16287330/d5868d47-9705-4749-b268-40cc84aa507a)
 
 
 
