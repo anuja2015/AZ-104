@@ -74,6 +74,7 @@
 
 - probes the backend pool every 15 seconds.
 - If the instance responds with an HTTP 200 message within the specified timeout period (default is 31 seconds), it is considered to be healthy.
+
 - If any status other than HTTP 200 is returned, the instance is considered unhealthy, and the probe fails.
 
 ### TCP Health probe
@@ -81,3 +82,19 @@
 - relies on establishing a successful TCP session to a defined probe port.
 - If the specified listener on the virtual machine exists, the probe succeeds.
 - If the connection is refused, the probe fails.
+
+## Create a public load balancer in Azure portal
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/e58acbaa-f89f-4b7b-9d2b-055fe24ac309)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/fe52853d-ff59-4172-9c26-6c7227d34b0a)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/a7ceda75-43f9-4406-b292-ce30c32b0af1)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/f48d7dd4-eaa2-466b-a458-1d3c07dd5af4)
+
+## Add backend pool
+
+
+
+
