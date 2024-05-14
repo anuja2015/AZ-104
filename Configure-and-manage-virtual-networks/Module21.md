@@ -34,17 +34,17 @@ Register multiple DNS names (CNAMEs) for the IP address of the application gatew
 
 ## Application Gateway components
 
-__Front-end IP address__ : receives the client requests.
+__Front-end IP address__ : receives the client requests. public IP or private IP or both.
 
 __Web Application Firewall__(Optional) : checks incoming traffic for common threats before the requests reach the listeners.
 
-__Listeners__ : one or nore to receive the traffic and route the requests to the back-end pool.
+__Listeners__ : one or nore to receive the traffic and route the requests to the back-end pool. can be Basic (based on path) or Multi-site (based on hostnames).
 
 __Routing rules__ : define how to analyze the request to direct the request to the appropriate back-end pool.
 
 __Back-end pool__ : contains web servers for resources like virtual machines or Virtual Machine Scale Sets. Each pool has a load balancer to distribute the workload across the resources.
 
-__Health probes__ : determine which back-end pool servers are available for load-balancing.
+__Health probes__ : determine which back-end pool servers are available for load-balancing. status code between 200 and 399,  is considered healthy.
 
 
 ![configure-app-gateway-0193dbd6](https://github.com/anuja2015/AZ-104/assets/16287330/8dafc1f4-5795-46bf-b069-8c2e5f0b6896)
