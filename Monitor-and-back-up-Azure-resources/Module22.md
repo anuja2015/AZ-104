@@ -73,9 +73,6 @@ __Zone redundant storage (ZRS)__
 
 __Note: must change the storage replication type for the Recovery Services vault before you try to configure a backup in the vault. After you configure a backup, the option to modify the replication type is disabled.__
 
-### Manually Backup a VM
-
-
 
 ### Create a backup policy
 
