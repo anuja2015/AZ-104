@@ -40,3 +40,10 @@ __4. Azure managed-disks image__
 
 ![backup-steps-97429b0d](https://github.com/anuja2015/AZ-104/assets/16287330/a5ec10d8-016e-4a3c-b652-296a0cdbfb34)
 
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/c8c7fe6a-d46d-4a9e-be9f-25077fe6d3d0)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/c622151a-6848-47b2-abb7-b03bcaf11d61)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/2c30c48a-0c1f-46ec-bfe0-4dafc708bfe7)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/960fce33-70a7-44c9-810c-d1b89aed4552)
