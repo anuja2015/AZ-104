@@ -110,7 +110,7 @@ __Note: must change the storage replication type for the Recovery Services vault
 
 ![image](https://github.com/anuja2015/AZ-104/assets/16287330/42626ef3-364d-4f47-b515-b812c5adae3a)
 
-
+## Restore files from backup
 
 
 
