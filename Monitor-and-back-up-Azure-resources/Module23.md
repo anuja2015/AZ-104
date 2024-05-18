@@ -49,3 +49,5 @@ __4. Azure managed-disks image__
 ![image](https://github.com/anuja2015/AZ-104/assets/16287330/2c30c48a-0c1f-46ec-bfe0-4dafc708bfe7)
 
 ![image](https://github.com/anuja2015/AZ-104/assets/16287330/960fce33-70a7-44c9-810c-d1b89aed4552)
+
+## Restore your virtual machines
