@@ -112,7 +112,12 @@ __Note: must change the storage replication type for the Recovery Services vault
 
 
 
+![file-folder-backup-6d3d3d1e-1](https://github.com/anuja2015/AZ-104/assets/16287330/23af4fca-a776-4a36-b0cd-765aa4050976)
 
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/fcfe4932-5102-4187-8f97-567e9bd70ce1)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/42626ef3-364d-4f47-b515-b812c5adae3a)
 
 
 
