@@ -50,4 +50,18 @@ __4. Azure managed-disks image__
 
 ![image](https://github.com/anuja2015/AZ-104/assets/16287330/960fce33-70a7-44c9-810c-d1b89aed4552)
 
-## Restore your virtual machines
+## Restore the virtual machines
+
+
+## Soft delete for VM
+
+- protects backups of the virtual machines from unintended deletion.
+- Even after the backups are deleted, they're preserved in the soft-delete state for 14 more days.
+- Before you can restore a soft-deleted virtual machine, you must undelete the backup data.
+
+![soft-delete-93edca4c](https://github.com/anuja2015/AZ-104/assets/16287330/7692de14-821c-4614-9cd0-3b5447723958)
+
+
+## Azure Site Recovery
+
+- a service that helps ensure business continuity by replicating workloads from a primary site to a secondary location.
