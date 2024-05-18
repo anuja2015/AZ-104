@@ -112,5 +112,16 @@ __Note: must change the storage replication type for the Recovery Services vault
 
 ## Restore files from backup
 
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/293a0339-0e52-4025-aa18-16fb0d3326c5)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/fd33a3fc-472e-4188-99b1-762ad713c9f3)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/e38e8c45-bd72-49f6-a66e-c6d705366fe5)
+
+The script can be downloaded to the virtual machine or to the workstation, provided the network connection is good enough to mount the disk. After recovering the files, the disk must be unmounted.
+
+
+
+
 
 
