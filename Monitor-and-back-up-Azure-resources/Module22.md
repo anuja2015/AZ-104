@@ -95,6 +95,18 @@ __Note: must change the storage replication type for the Recovery Services vault
 
 ![image](https://github.com/anuja2015/AZ-104/assets/16287330/0a02a0fa-9b67-47d1-82e2-308311706bfa)
 
+## Microsoft Azure Recovery Services Agent
+
+- Azure Backup uses the Microsoft Azure Recovery Services (MARS) agent to back up files, folders, and system data from your on-premises machines and Azure virtual machines.
+- MARS agent to be installed on your Windows client or Windows Server.
+- can back up files and folders on Windows virtual machines or physical machines. Virtual machines can be on-premises or in Azure.
+- The MARS agent doesn't require a separate backup server.
+
+### MARS Agent implementation
+
+| On-premise direct backup | MARS agent  on the on-premise Windows machine |
+| Back up for specific files or folders | MARS agent on Azure virtual machines |
+| Back up to MABS or System Center DPM | MARS agent on a Microsoft Azure Backup Server (MABS) instance or a System Center Data Protection Manager (DPM) server |
 
 
 
