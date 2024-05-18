@@ -36,6 +36,8 @@ __4. Azure managed-disks image__
 - After the completion of the job, can use recovery points for the snapshot to restore the virtual machine or specific files.
 - Recovery points are listed for the virtual machine snapshot in the Azure portal and are labeled with a recovery point type.
 
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/a8aeddf0-98bd-46fb-bf5f-76dcc31cefc6)
+
 ## Backup a VM
 
 ![backup-steps-97429b0d](https://github.com/anuja2015/AZ-104/assets/16287330/a5ec10d8-016e-4a3c-b652-296a0cdbfb34)
