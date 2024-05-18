@@ -52,6 +52,15 @@ __4. Azure managed-disks image__
 
 ## Restore the virtual machines
 
+We can either create a new Virtual machine from the restore point or just restore the disks. 
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/1cd4a727-b33d-4de9-91fa-d7273f27c8b3)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/ee3c9682-bf59-4b1f-a82e-d791737c5bc1)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/b6f014ae-5af1-46d8-8900-f634aeecf621)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/0b0c364b-162f-421f-a942-1d683cf0bf8b)
 
 ## Soft delete for VM
 
@@ -65,3 +74,5 @@ __4. Azure managed-disks image__
 ## Azure Site Recovery
 
 - a service that helps ensure business continuity by replicating workloads from a primary site to a secondary location.
+
+![site-recovery-scenarios-388c71fd](https://github.com/anuja2015/AZ-104/assets/16287330/c07818b3-0ba8-4eef-833b-9cefd3bb3db1)
