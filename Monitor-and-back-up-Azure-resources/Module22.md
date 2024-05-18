@@ -83,6 +83,17 @@ __Note: must change the storage replication type for the Recovery Services vault
 
 ![image](https://github.com/anuja2015/AZ-104/assets/16287330/960fce33-70a7-44c9-810c-d1b89aed4552)
 
+### Create a backup policy
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/8eb49e24-7568-4a14-bd38-6083c2d33d8c)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/ef03e5c3-5323-402c-ad88-ff3d47f2b815)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/a2e866d0-b712-4f78-b5ee-b5870e6af6ff)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/df972deb-c46f-4c6a-a51a-4dc60a6f9d9f)
+
+![image](https://github.com/anuja2015/AZ-104/assets/16287330/0a02a0fa-9b67-47d1-82e2-308311706bfa)
 
 
 
