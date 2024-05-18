@@ -104,6 +104,8 @@ __Note: must change the storage replication type for the Recovery Services vault
 
 ### MARS Agent implementation
 
+| Scenario | Implementation |
+| -------- | -------------- |
 | On-premise direct backup | MARS agent  on the on-premise Windows machine |
 | Back up for specific files or folders | MARS agent on Azure virtual machines |
 | Back up to MABS or System Center DPM | MARS agent on a Microsoft Azure Backup Server (MABS) instance or a System Center Data Protection Manager (DPM) server |
