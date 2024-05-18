@@ -56,5 +56,12 @@ Module:21 Configure Azure Application Gateway
 
 ### 5. Monitor and back up Azure resources (10-15%)
 
+Module:22 Configure file and folder backups 
+Module:23 Configure virtual machine backups 
+Module:24 Configure Azure Monitor 
+Module:25 Configure Log Analytics 
+Module:26 Configure Network Watcher 
+
+
 __Note :__ This is as per October 2023!
 
