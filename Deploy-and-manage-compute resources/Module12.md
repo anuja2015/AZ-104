@@ -5,9 +5,13 @@
 - defines a set of compute resources needed to run a web application.
 - one or more applications can be configured to run on same App service plan (on same compute resources).
 - Each App Service plan defines three settings:
+  
     i. Region: The region for the App Service plan, such as West US, Central India, North Europe, and so on.
+  
    ii. Number of VM instances: The number of virtual machine instances to allocate for the plan.
+  
   iii. Size of VM instances: The size of the virtual machine instances in the plan, including Small, Medium, or Large.
+  
 - When an App service plan is created for a region, a set of compute resources are created in the region.
 - The applications run and scale in a different manner depending on the App service pricing tiers.
 
