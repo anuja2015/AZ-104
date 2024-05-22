@@ -62,7 +62,7 @@ Module:23 Configure virtual machine backups
 
 Module:24 Configure Azure Monitor 
 
-Module:25 Configure Log Analytics 
+Module:25 Configure Log Analytics and Network Watcher
 
 
 
