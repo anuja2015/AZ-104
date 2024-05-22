@@ -64,7 +64,6 @@ Module:24 Configure Azure Monitor
 
 Module:25 Configure Log Analytics 
 
-Module:26 Configure Network Watcher 
 
 
 __Note :__ This is as per October 2023!
