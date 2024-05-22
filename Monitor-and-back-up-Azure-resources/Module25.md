@@ -1,4 +1,4 @@
-# Module:25 Configure Log Analytics
+# Module:25 Configure Log Analytics and Network Watcher
 
 - edit and run log queries for the data collected in Azure Monitor Logs
 - supports the Kusto Query Language (KQL).
@@ -11,4 +11,7 @@
 
 
 ![query-tables-f3872e3a](https://github.com/anuja2015/AZ-104/assets/16287330/e77503d4-e78d-4324-bca7-5fdb71c607af)
+
+
+- You need Microsoft.OperationalInsights/workspaces/write permissions to the resource group where you want to create the Log Analytics workspace.
 
