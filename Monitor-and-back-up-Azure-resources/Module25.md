@@ -20,6 +20,7 @@
 
 - monitor, diagnose, and manage resources in an Azure virtual network.
 - To use Network Watcher, you must be an Owner, Contributor, or Network Contributor.
+- is a regional tool
 - provides a network monitoring topology tool to help administrators visualize and understand infrastructure.
 
 ## Features of Network Watcher
